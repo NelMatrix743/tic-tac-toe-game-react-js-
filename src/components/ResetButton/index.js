@@ -1,5 +1,5 @@
 // single barrel file for re-export
 
-export { default } from "./Card.jsx";
+export { default } from "./ResetButton.jsx";
 
 // EOSC
