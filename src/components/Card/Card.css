@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #181818;
+    border: 3px solid #424242;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card:hover {
+    border-color: #6e6e6e;
+}
+
+.card-flipped-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 255, 120, 0.08);
+    border: 2px solid rgba(0, 255, 120, 0.6);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px rgba(0, 255, 120, 0.2);
+}
+
+.card-flipped-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 0, 0, 0.08);
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.25);
+}
+
+.game-icon {
+    width: 50px;
+}
