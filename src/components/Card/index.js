@@ -1,5 +1,5 @@
 // single barrel file for re-export
 
-export { default as Card } from "./Card.jsx";
+export { default } from "./Card.jsx";
 
 // EOSC

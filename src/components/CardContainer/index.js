@@ -1,9 +1,5 @@
-import React from 'react';
+// single barrel file for re-export
 
-function CardContainer() {
-  return (
-    <div>CardContainer</div>
-  )
-}
+export { default } from "./CardContainer.jsx";
 
-export default CardContainer;
+// EOSC
