@@ -1,16 +1,29 @@
+.header-container {
+        font-family: 'Courier New', Courier, monospace;
+}
+
 .title {
     font-size: 55px;
     color: white;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .red {
     color: red;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .yellow {
     color: yellow;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .orange {
     color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sub-title {
+    color: white;
 }
