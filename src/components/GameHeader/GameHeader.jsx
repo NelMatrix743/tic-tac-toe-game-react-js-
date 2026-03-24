@@ -3,7 +3,7 @@ import "./GameHeader.css";
 
 function GameHeader() {
   return (
-    <div>
+    <>
         <h1 className="title">
             <span className="red">TIC</span>
             -
@@ -15,7 +15,7 @@ function GameHeader() {
             <p>GAME STATUS: <span>ONGOING</span></p>
             <p>WINNER: <span>X</span></p>
         </div>
-    </div>
+    </>
   )
 }
 
