@@ -1,8 +1,9 @@
-import React from 'react'
+import "./ResetButton.css";
 
-function ResetButton() {
+
+function ResetButton({ resetHandler }) {
   return (
-    <div>ResetButton</div>
+    <button className="reset-btn" onClick={ () => resetHandler(true) }>RESET</button>
   )
 }
 
