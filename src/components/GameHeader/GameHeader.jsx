@@ -12,8 +12,8 @@ function GameHeader() {
             <span className="orange">TOE</span>
         </h1>
         <div className="sub-title">
-            <p>GAME STATUS: <span>ONGOING</span></p>
-            <p>WINNER: <span>X</span></p>
+            <p className="game-stat">GAME STATUS: <span className="ongoing">ONGOING</span></p>
+            <p className="game-stat">WINNER: <span> --- </span></p>
         </div>
     </>
   )
