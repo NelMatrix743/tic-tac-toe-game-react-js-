@@ -12,3 +12,10 @@ body {
     justify-content: center;
     padding-top: 50px;
 }
+
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
